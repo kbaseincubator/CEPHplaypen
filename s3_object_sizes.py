@@ -37,7 +37,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output",
-        default="object_sizes.txt",
+        default="s3_object_sizes.txt",
         help="Output file path (default: object_sizes.txt)",
     )
     return parser.parse_args()

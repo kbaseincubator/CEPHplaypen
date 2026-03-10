@@ -1,3 +1,9 @@
 /s3_object_sizes.txt
 /blobstore_mongo_sizes.txt
 /ws_mongo_sizes.txt
+/berdl_s3_object_sizes.txt
+/berdl_s3_object_sizes_histogram.png
+/blobstore_s3_object_sizes.txt
+/blobstore_s3_object_sizes_histogram.png
+/ws_s3_object_sizes.txt
+/ws_s3_object_sizes_histogram.png

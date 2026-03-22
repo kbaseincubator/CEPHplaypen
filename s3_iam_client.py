@@ -4,6 +4,10 @@ import json
 from typing import Any, Self
 from urllib.parse import unquote
 
+import aiobotocore.session
+from botocore.exceptions import ClientError
+
+
 def _parse_policy(doc: str | dict) -> dict:
     """Parse a policy document returned by IAM, handling both URL-encoded strings
     (AWS) and pre-parsed dicts (CEPH)."""
@@ -11,8 +15,6 @@ def _parse_policy(doc: str | dict) -> dict:
         return doc
     return json.loads(unquote(doc))
 
-import aiobotocore.session
-from botocore.exceptions import ClientError
 
 class S3IAMClient:
     """

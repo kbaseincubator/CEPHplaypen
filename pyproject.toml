@@ -11,3 +11,8 @@ dependencies = [
     "pymongo>=4.16.0",
     "urllib3[socks]>=2.6.3",
 ]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.11.0",
+]

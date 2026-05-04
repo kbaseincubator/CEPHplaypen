@@ -10,3 +10,6 @@
 /__pycache__/
 /s3_client_test_results.txt
 /.venv/
+/warp_benchmark.png
+/warp_benchmark.tsv
+/warp_gold_standard.tsv

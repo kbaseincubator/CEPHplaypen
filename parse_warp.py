@@ -57,6 +57,7 @@ def parse_op(op_name, op):
         for client_segs in op['requests_by_client'].values()
         for item in client_segs
         if 'single_sized_requests' in item
+        and item['single_sized_requests'].get('merged_entries', 0) > 0
     ]
 
     result = {

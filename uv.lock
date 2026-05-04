@@ -137,6 +137,36 @@ wheels = [
 ]
 
 [[package]]
+name = "backports-zstd"
+version = "1.4.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/13/40/0e0361a5c78f80cb11b07ddec0faf63a9985b9be4dc5d15592e48ce35eb4/backports_zstd-1.4.0.tar.gz", hash = "sha256:655be611252f717bc78f2227e3773dc393c965f228a81e60431f6d47bfdb6643", size = 997918, upload-time = "2026-05-03T21:12:32.298Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e4/9a/a490cbe666655004c433b9c8c1076bdb1a5945112c92f1abc20280f9f4da/backports_zstd-1.4.0-cp313-cp313-android_21_arm64_v8a.whl", hash = "sha256:84503d12e7b2d053c82abec506925eccd22c3890cfc27d6c982b0e6d83242d4b", size = 399132, upload-time = "2026-05-03T21:11:45.66Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/8b/84de040b1a894dfa4677f21d4a634543eca8a8bf77d00c711ef983c27ab6/backports_zstd-1.4.0-cp313-cp313-android_21_x86_64.whl", hash = "sha256:7bd3514bc7f57f39e2c8df33ce82b38a17a27130fbed0028d50d3255f385ea95", size = 453203, upload-time = "2026-05-03T21:11:46.864Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/fd/c8098ad06196207ce7b799e528cf6b5b6ffed886a9468073606267b8a2c1/backports_zstd-1.4.0-cp313-cp313-ios_13_0_arm64_iphoneos.whl", hash = "sha256:4e9cbc52a2bfcb480da5d9b4090307e4155c22758801d596c7a2338ba4be3629", size = 356216, upload-time = "2026-05-03T21:11:48.127Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/77/3476b7976305cd8c180bdb8997b9c52f8ce06d8c5f2e60d4ef22bca2f906/backports_zstd-1.4.0-cp313-cp313-ios_13_0_arm64_iphonesimulator.whl", hash = "sha256:ec2d86b6fed33e802098e8422d13eb0b8a5d056e2f42ee3249e1a453979e8203", size = 364915, upload-time = "2026-05-03T21:11:49.597Z" },
+    { url = "https://files.pythonhosted.org/packages/4c/03/4764e4d8fa23c73fe93eb0da0f4b16fddbca79ab48894bc92dd8bd785f50/backports_zstd-1.4.0-cp313-cp313-ios_13_0_x86_64_iphonesimulator.whl", hash = "sha256:113852c6b4e52796955c5d6d366828f8d859b4b96ad57fafc627a7fb691cdd62", size = 445464, upload-time = "2026-05-03T21:11:51.001Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/a7/76f6c859c4c8dad9e00aa4170cc6ce3729422196aecbe68af54d404db85f/backports_zstd-1.4.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:9c9f7c7ebb6d39a2d8b1c2783b16a1f2f4595879265c4f0aa00b053c09d23993", size = 435641, upload-time = "2026-05-03T21:11:52.184Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/9a/a688ff0ac4614c6880ab29a9497cdf26edf0474b09db1710084d1b2c1de3/backports_zstd-1.4.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:13c7d3ab1382dea0693aa31ca076b3dff75235aafafc2cc2d323258db3dece93", size = 361915, upload-time = "2026-05-03T21:11:53.411Z" },
+    { url = "https://files.pythonhosted.org/packages/b1/0a/9467dd583156dec395a0858729ee59f49ffb23b19db3bf08fa5dca61ac75/backports_zstd-1.4.0-cp313-cp313-manylinux2010_i686.manylinux_2_12_i686.manylinux_2_28_i686.whl", hash = "sha256:b5a28771464ccac584ea7712a2cb34491106769dc02a0fa5d76e38c3ce3ccb4e", size = 505831, upload-time = "2026-05-03T21:11:54.646Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/e3/a4ec786ebb4793c69e8f449012aa8f6f2913fdfd1841ee23dab6aab3b09e/backports_zstd-1.4.0-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:406112854cee9f052c7cca22840094b5d3a5456466b9b90493598a7861c64e83", size = 476016, upload-time = "2026-05-03T21:11:56.093Z" },
+    { url = "https://files.pythonhosted.org/packages/8e/57/0390ba883c8b2f3d2da7e008da147ded0c61d69d5a0be98a624532cd3892/backports_zstd-1.4.0-cp313-cp313-manylinux2014_ppc64le.manylinux_2_17_ppc64le.manylinux_2_28_ppc64le.whl", hash = "sha256:11742cbf51a068c5fe1b3b95297e5bb8fd9b90bfa45a02eb59a8269a34e26394", size = 581513, upload-time = "2026-05-03T21:11:57.601Z" },
+    { url = "https://files.pythonhosted.org/packages/e6/36/b875158a70ffa5420796772e10ad31f5742d1028b6c91356050eb870fdbd/backports_zstd-1.4.0-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:1965d5e417637c38ec2d4090fb8f777b9783f2929af2f4bfd9be1d32266f28a6", size = 642346, upload-time = "2026-05-03T21:11:59.118Z" },
+    { url = "https://files.pythonhosted.org/packages/07/3e/aa0b9fc92c4100b931358b083876f227b619d4373af1eebbb1725c159df7/backports_zstd-1.4.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:0807b944b2642e27fce7e0946cc91cf89b5a570fd63414b8100c72b97883f025", size = 490980, upload-time = "2026-05-03T21:12:00.585Z" },
+    { url = "https://files.pythonhosted.org/packages/44/60/4f77a8b3f95bc768a4c15174f857f6d414b36744c236165b745c34158e56/backports_zstd-1.4.0-cp313-cp313-manylinux_2_34_riscv64.manylinux_2_39_riscv64.whl", hash = "sha256:e1a5abcb3ceed254a93e5db570336b4751a72cfb7435fa19cf5f5ac99ba12eab", size = 566235, upload-time = "2026-05-03T21:12:02.196Z" },
+    { url = "https://files.pythonhosted.org/packages/65/c0/ee0b02a74a1265d46ba66c601b37e23e61321250557744b7cdd86a0578aa/backports_zstd-1.4.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:4ed1bab84018895b45b78d0206007854551784f0ca6afca708c3c999785b1fdf", size = 481821, upload-time = "2026-05-03T21:12:03.728Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/56/284477ddd0eac84815049f2f2597153cf0d8c1f0d603063f4b57e28eb589/backports_zstd-1.4.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:7eb5eb0606cada9a80300936c7e2a6d1fd4d6a85778bf79a0123672c59c7d64e", size = 509379, upload-time = "2026-05-03T21:12:04.973Z" },
+    { url = "https://files.pythonhosted.org/packages/99/b5/43d9a674d3f168da898063914dd1e8914fc7a400c453ee1bfb950aba5fcf/backports_zstd-1.4.0-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:3ae51abe97c7e4f55da4bfd3ea6e2b8c8ea51cfb6a9eaffe4b083a03ba402e5c", size = 585957, upload-time = "2026-05-03T21:12:06.6Z" },
+    { url = "https://files.pythonhosted.org/packages/2d/99/43f3ae1b30f31968394730eaf91fcd2d5ab86083e8936e47ccbaed999c0f/backports_zstd-1.4.0-cp313-cp313-musllinux_1_2_riscv64.whl", hash = "sha256:500970de01c10608a4f225c23b799c97164c0f27cadf620e449d3461c824590a", size = 564024, upload-time = "2026-05-03T21:12:07.984Z" },
+    { url = "https://files.pythonhosted.org/packages/35/1a/38b039aed0b9656f029c95021460a5900d670bb8001ecd67a684862b3704/backports_zstd-1.4.0-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:ed3e2b0c762eb4c61586d3f2468e2c3f59cb2f66b61419aa18686468a9551ae8", size = 632753, upload-time = "2026-05-03T21:12:09.363Z" },
+    { url = "https://files.pythonhosted.org/packages/fb/b5/6e5cf800234186bf3b9346779455cf9f2b2082eda9dba8080f00ecc7bb38/backports_zstd-1.4.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:03ede9c0584d2211e699955fbfb936c11f7eb57a91f1499ed61d7a743a656cc6", size = 495271, upload-time = "2026-05-03T21:12:10.94Z" },
+    { url = "https://files.pythonhosted.org/packages/88/15/7fb513b17a0b0afb00859c2d9b64c8b8625915ad625bd270fe39e6fe965c/backports_zstd-1.4.0-cp313-cp313-win32.whl", hash = "sha256:24d107d5d32106cb9c2ed17bb236ad5e6ba2e1ae9a5bec650895acf71205d82a", size = 288588, upload-time = "2026-05-03T21:12:12.509Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/ff/f5f08621f40d2c5c0e30403d6700b33f54c60d6eb6a2c7e481d8495098ed/backports_zstd-1.4.0-cp313-cp313-win_amd64.whl", hash = "sha256:37c70e9fffc8d0b3d755e1bb1822387138a02abe43cec05914827345fd926a46", size = 313820, upload-time = "2026-05-03T21:12:14.215Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/26/bb9330535bd975d5c6f0764461f4ccfecf513a1c6095e1fe05b7453c2707/backports_zstd-1.4.0-cp313-cp313-win_arm64.whl", hash = "sha256:50ddb677384c349d1cca6cd54c37f2e4aa0a5811c3e4ea427b6cbf63cd1fc4e1", size = 290427, upload-time = "2026-05-03T21:12:15.405Z" },
+]
+
+[[package]]
 name = "boto3"
 version = "1.42.63"
 source = { registry = "https://pypi.org/simple" }
@@ -170,6 +200,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "aiobotocore" },
+    { name = "backports-zstd" },
     { name = "boto3" },
     { name = "matplotlib" },
     { name = "pymongo" },
@@ -184,6 +215,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "aiobotocore", specifier = ">=3.3.0" },
+    { name = "backports-zstd", specifier = ">=1.4.0" },
     { name = "boto3", specifier = ">=1.42.63" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "pymongo", specifier = ">=4.16.0" },

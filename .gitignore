@@ -9,3 +9,4 @@
 /ws_s3_object_sizes_histogram.png
 /__pycache__/
 /s3_client_test_results.txt
+/.venv/
